@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.pic{
+    width: 50px;
+    height: 50px;
+}
+
+.users{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.users>div{background-color: gold;
+border-radius: 20px;
+padding: 20px;
+}

@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+
+    background-color: aqua;
+    padding: 20px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  flex-direction: column;
+    background-color: red;
+}
+
+.img{width: 200px;
+height: 100px;
+}
